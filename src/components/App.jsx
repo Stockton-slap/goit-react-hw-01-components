@@ -10,6 +10,8 @@ export const App = () => {
     <>
     <div style={{
         backgroundColor: "rgb(167, 167, 167)",
+        marginBottom: "50px",
+        border: "2px dashed red"
       }}>
        <Profile
         userName={username}
@@ -23,9 +25,9 @@ export const App = () => {
       
       <div style={{
         backgroundColor: "rgb(167, 167, 167)",
-        margin: "50px 0",
-        padding: "50px 0"
-
+        marginBottom: "50px",
+        padding: "50px 0",
+        border: "2px dashed red"
       }}>
       <Statistics title="Upload stats" stats={data} />
       </div>

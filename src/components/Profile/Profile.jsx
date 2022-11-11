@@ -1,8 +1,9 @@
 import css from './Profile.module.css'
+import PropTypes from "prop-types";
 
 const Profile = ({ userName, userTag, location, avatar, followers, views, likes }) => {
     return <div className={css.profile}>
-  <div className={css.description}>
+      <div className={css.description}>
     <img
       src={avatar}
       alt={userName}
@@ -29,6 +30,16 @@ const Profile = ({ userName, userTag, location, avatar, followers, views, likes 
             </ul>
         </div>
 </div>
+}
+
+Profile.propTypes = {
+   userName: PropTypes.string,
+   userTag: PropTypes.string,
+   location: PropTypes.string,
+   avatar: PropTypes.string,
+   followers: PropTypes.number,
+   views: PropTypes.number,
+   likes: PropTypes.number
 }
 
 export default Profile;
