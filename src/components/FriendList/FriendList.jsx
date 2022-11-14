@@ -6,6 +6,7 @@ const FriendList = ({ friends }) => {
     <ul className={css.friendList}>
       {friends.map(({ avatar, id, isOnline, name }) => {
         const classNames = [css.status];
+
         if (isOnline) {
           classNames.push(css.isOnlineStatus);
         }
@@ -24,10 +25,10 @@ const FriendList = ({ friends }) => {
 FriendList.propTypes = {
   friends: PropTypes.arrayOf(
     PropTypes.shape({
-      avatar: PropTypes.string,
-      id: PropTypes.number,
-      isOnline: PropTypes.bool,
-      name: PropTypes.string,
+      avatar: PropTypes.string.isRequired,
+      id: PropTypes.number.isRequired,
+      isOnline: PropTypes.bool.isRequired,
+      name: PropTypes.string.isRequired,
     })
   ),
 };

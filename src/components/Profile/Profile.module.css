@@ -1,71 +1,70 @@
-
-
 .description {
-background-color: #fff;
-width: 400px;
-border-radius: 5%;
-margin: 0 auto;
-text-align: center;
-overflow: hidden;
-box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  background-color: #fff;
+  width: 400px;
+  border-radius: 5%;
+  margin: 0 auto;
+  text-align: center;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .avatar {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    background-color: rgb(119, 10, 10);
-        margin-top: 20px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: rgb(119, 10, 10);
+  margin-top: 20px;
 }
 
 .stats {
-        display: flex;
-        margin-top: 40px;
-        padding: 0;
-        margin-bottom: 0;
+  display: flex;
+  margin-top: 40px;
+  padding: 0;
+  margin-bottom: 0;
 }
 
 .item {
-    display: flex;
-        flex-direction: column;
-        width: 100%;
-        padding: 20px;
-                background-color: rgb(217, 217, 217);
-    border-top: 1px solid rgb(119, 118, 118);;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 20px;
+  background-color: rgb(217, 217, 217);
+  border-top: 1px solid rgb(119, 118, 118);
 }
 
 .item:not(:last-child) {
-    border-right: 1px solid rgb(119, 118, 118);
+  border-right: 1px solid rgb(119, 118, 118);
 }
 
 .name {
-    font-weight: 900;
-    margin-top: 40px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 25px;
+  font-weight: 900;
+  margin-top: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 25px;
 }
 
 .tag {
-margin-top: 20px;
-color: rgb(119, 118, 118);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 20px;
+  color: rgb(119, 118, 118);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .location {
-margin-top: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-color: rgb(119, 118, 118);
+  margin-top: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(119, 118, 118);
 }
 
 .label {
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        color: rgb(247, 247, 247);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(247, 247, 247);
 }
 
 .quantity {
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-weight: 900;
-        padding-top: 10px;
-        color: rgb(247, 247, 247);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 900;
+  padding-top: 10px;
+  color: rgb(247, 247, 247);
 }
-
