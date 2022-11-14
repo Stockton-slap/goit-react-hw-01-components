@@ -23,7 +23,6 @@ const Statistics = ({ title, stats }) => {
     </section>
   );
 };
-
 Statistics.propTypes = {
   title: PropTypes.string.isRequired,
   stats: PropTypes.arrayOf(

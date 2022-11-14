@@ -17,7 +17,6 @@ const styles = {
 
 export const App = () => {
   const { username, tag, location, avatar, stats } = user;
-  console.log(stats);
   return (
     <>
       <div style={styles}>
